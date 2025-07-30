@@ -1,0 +1,46 @@
+<!-- Creating a simple weather widget using HTML, CSS and JavaScript -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel = "stylesheet" href="styles/weather.css">
+    </head>
+    <body>
+        <div class = "card">
+            <div class = "search">
+                <input type = "text" placeholder="Enter city name" spellcheck="false">
+                <button>
+                    <img src = "images/search button.png" alt = "Search">
+                </button>
+            </div>
+            <div class = "error">
+                <p>Enter a valid city name</p>
+            </div>
+            <div class = "weather">
+                <img src = "images/clear.png" class = "weather-icon"> 
+                <h1 class = "temp">28&deg;<span class = "C">C</span></h1>
+                <p class="desc">overcast clouds</p>
+                <h2 class = "city">Madipakkam</h2>
+                <div class = "divisions">
+                    <div class = "division">
+                        <img src = "images/humidity.png">
+                        <div class = "info">
+                            <p class = "humidity">55%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class = "division">
+                        <img src = "images/wind.png">
+                        <div class = "info">
+                            <p class = "wind">7.24 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src = "scripts/config.js"></script>
+        <script src = "scripts/weather.js"></script>
+    </body>
+</html>

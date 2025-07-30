@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter";
+} body {
+    background: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} .card {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 45px 50px;
+    text-align: center;
+} .search input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #222222;
+    width: 60%;
+    font-size: 20px;
+    margin-right: 20px;
+} .search {
+    display: flex;
+    align-items: center;
+} .search button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+} .search img {
+    border-radius: 50%;
+    width: 100%;
+} .error {
+    margin: 10px 0px 0px 15px;
+    text-align: left;
+    font-weight: bold;
+    display: none;
+} .weather-icon {
+    margin-top: 35px;
+    height: 60px;
+    width: 60px;
+} .temp {
+    margin-top: 20px;
+    font-size: 60px;
+} .C {
+    font-size: 40px;
+} .city {
+    margin-top: 20px;
+    font-weight: 400;
+} .divisions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+} .division {
+    display: flex;
+    text-align: left;
+} .humidity, .wind {
+    font-weight: bold;
+} .info {
+    margin-left: 10px;
+} .division img {
+    height: 40px;
+} .weather {
+    display: none;
+}
