@@ -20,4 +20,4 @@ A simple weather dashboard that fetches and displays current weather data for a 
 
 ## Live Demo
 
-[Click here to view the dashboard](https://your-username.github.io/weather-dashboard/)
+[Click here to view the dashboard](https://nikhiing-weather.netlify.app/weather.html)
