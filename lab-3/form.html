@@ -1,0 +1,56 @@
+<!-- Performing form validation using HTML, CSS and JavaScript
+ 
+The form asks for:
+    - name (mandatory, atleast 3 characters)
+    - email address (mandatory, in valid email format)
+    - phone number (optional, 10 digits if present)
+    - age (mandatory, between 18 and 25)
+    - Tshirt size (mandatory) -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Coordinator Registration</title>
+        <link rel = "stylesheet" href = "styles/form.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <h1>Instincts Student Coordinator Registration</h1>
+            <form id = "registrationForm" novalidate>
+                <div class = "field">
+                    <label for = "name">Full Name <span>*</span></label>
+                    <input type = "text" id = "name" required>
+                    <div class = "error">Full name is required.</div>
+                </div>
+                <div class = "field">
+                    <label for = "email">Email Address <span>*</span></label>
+                    <input type = "email" id = "email" required>
+                    <div class = "error">A valid email address is required.</div>
+                </div>
+                <div class = "field">
+                    <label for = "phone">Phone number (Optional)</label>
+                    <input type = "tel" id = "phone" required>
+                    <div class = "error">Please enter a valid 10-digit phone number.</div>
+                </div>
+                <div class = "field">
+                    <label for = "age">Age <span>*</span></label>
+                    <input type = "number" id = "age" min="18" max="25" required>
+                    <div class = "error">Age is required (must be 18-25).</div>
+                </div>
+                <div class = "field">
+                    <label for = "tshirt">T-Shirt Size <span>*</span></label>
+                    <select id = "tshirt" required>
+                        <option value="" disabled selected>-- Select a Size --</option>
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+                    </select>
+                    <div class = "error">Please select a T-shirt size.</div>
+                </div>
+                <button type="submit">Proceed to Payment</button>
+            </form>
+        </div>
+        <script src="scripts/form.js"></script>
+    </body>
+</html>
