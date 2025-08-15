@@ -1,3 +1,5 @@
+// SearchBar component
+
 function SearchBar() {
     return (
         <div className="search-bar">

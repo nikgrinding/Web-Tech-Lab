@@ -1,4 +1,6 @@
-const data = [
+// animals data
+
+export const animalData = [
 	{
 		name: 'Lion',
 		scientificName: 'Panthero leo',
@@ -18,5 +20,3 @@ const data = [
 		diet: 'plants.'
 	}
 ];
-
-export default data;

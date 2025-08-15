@@ -1,3 +1,5 @@
+// fruits and vegetables data
+
 export const fruitsData = [
   { id: 1, name: 'apple', value: 95 },
   { id: 2, name: 'orange', value: 45 },

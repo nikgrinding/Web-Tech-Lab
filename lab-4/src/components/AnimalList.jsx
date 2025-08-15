@@ -1,3 +1,5 @@
+// AnimalList Component
+
 import AnimalCard from "./AnimalCard";
 
 function AnimalList (props) {

@@ -1,9 +1,11 @@
+// main app
+
 import { productsData } from './data/productsData.js';
 import SearchBar from './components/SearchBar';
 import ProductTable from './components/ProductTable';
 import ItemList from './components/ItemList';
 import { fruitsData, vegetablesData } from './data/groceriesData.js';
-import animalData from "./data/animalData.js";
+import { animalData } from "./data/animalData.js";
 import AnimalList from "./components/AnimalList";
 import './App.css';
 

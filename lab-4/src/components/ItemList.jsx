@@ -1,7 +1,8 @@
+// ItemList component
+
 import ItemCard from './ItemCard';
 
 function ItemList(props) {
-
     return (
     <div className = "grocery-list">
         <h2 className = "grocery-title">{props.title}</h2>

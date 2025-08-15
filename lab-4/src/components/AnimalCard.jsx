@@ -1,3 +1,5 @@
+// AnimalCard component
+
 function AnimalCard (props) {
     return (
         <div className="animal-card">

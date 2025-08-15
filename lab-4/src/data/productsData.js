@@ -1,3 +1,5 @@
+// products data
+
 export const productsData = [
   { id: 1, category: "Fruits", price: "$1", stocked: true, name: "Apple" },
   { id: 2, category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },

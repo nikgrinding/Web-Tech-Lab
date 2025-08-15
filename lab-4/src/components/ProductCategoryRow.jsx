@@ -1,3 +1,5 @@
+// ProductCategoryRow component
+
 import ProductRow from './ProductRow';
 
 function ProductCategoryRow(props) {

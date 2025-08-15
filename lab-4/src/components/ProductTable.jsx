@@ -1,3 +1,5 @@
+// ProductTable component
+
 import ProductCategoryRow from './ProductCategoryRow';
 
 function ProductTable(props) {
