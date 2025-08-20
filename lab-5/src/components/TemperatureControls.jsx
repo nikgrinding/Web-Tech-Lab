@@ -1,3 +1,5 @@
+// TemperatureControls component - displays the three ControlButton components
+
 import ControlButton from "./ControlButton.jsx";
 
 export default function TemperatureControls({ onIncrease, onDecrease, onToggle, scale }) {

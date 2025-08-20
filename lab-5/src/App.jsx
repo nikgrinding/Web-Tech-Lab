@@ -1,3 +1,5 @@
+// App component - the root component of the project
+
 import { useState } from "react";
 import TemperatureControls from "./components/TemperatureControls";
 import TemperatureDisplay from "./components/TemperatureDisplay";
