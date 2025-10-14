@@ -1,0 +1,4 @@
+[2025-10-14T15:53:27.996Z] Error reading index.html: ENOENT: no such file or directory, open 'C:\Users\nikhi\Documents\vsc\sem-5\Web Technologies Lab\lab-10\index.html'
+[2025-10-14T15:53:32.809Z] Error reading about.html: ENOENT: no such file or directory, open 'C:\Users\nikhi\Documents\vsc\sem-5\Web Technologies Lab\lab-10\about.html'
+[2025-10-14T15:53:41.455Z] Error reading styles.css: ENOENT: no such file or directory, open 'C:\Users\nikhi\Documents\vsc\sem-5\Web Technologies Lab\lab-10\styles.css'
+[2025-10-14T16:06:09.576Z] Error reading about.html: ENOENT: no such file or directory, open 'C:\Users\nikhi\Documents\vsc\sem-5\Web Technologies Lab\lab-10\about.html'
