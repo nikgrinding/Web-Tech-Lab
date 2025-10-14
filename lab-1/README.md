@@ -33,9 +33,9 @@ lab-1/
 
 ## Live Demo
 
-**Resume:**
+**Resume:** https://web-tech-lab-1.vercel.app/resume.html
 
-**CV:**
+**CV:** https://web-tech-lab-1.vercel.app/cv.html
 
 ## Local Setup
 
