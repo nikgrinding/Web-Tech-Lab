@@ -1,5 +1,0 @@
-[build]
-  publish = "lab-2"
-
-[functions]
-  directory = "functions"

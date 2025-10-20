@@ -3,7 +3,8 @@ const searchButton = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
 async function checkWeather(city) {
-    const response = await fetch(`/.netlify/functions/get-weather?city=${city}`);
+    // Call the Vercel serverless function instead of directly calling the API
+    const response = await fetch(`/api/get-weather?city=${city}`);
     let data = await response.json();
     if (data.cod === "404") {
         document.querySelector(".error").style.display= "block";

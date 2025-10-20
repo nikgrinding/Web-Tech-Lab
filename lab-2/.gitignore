@@ -1,0 +1,9 @@
+# Environment variables
+.env
+.env.local
+
+# Vercel
+.vercel
+
+# Node modules (if you install Vercel CLI locally)
+node_modules/
