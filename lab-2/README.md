@@ -29,18 +29,18 @@ lab-2/
 
 ## Features
 
-- Real-time weather data from OpenWeatherMap API
-- Clean and intuitive user interface
-- Displays temperature, humidity, wind speed, and weather conditions
-- Dynamic weather icons based on current conditions
-- Responsive design with gradient styling
+-   Real-time weather data from OpenWeatherMap API
+-   Clean and intuitive user interface
+-   Displays temperature, humidity, wind speed, and weather conditions
+-   Dynamic weather icons based on current conditions
+-   Responsive design with gradient styling
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- OpenWeatherMap API
+-   HTML5
+-   CSS3
+-   JavaScript (ES6+)
+-   OpenWeatherMap API
 
 ## Live Demo
 
@@ -50,11 +50,11 @@ lab-2/
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/nikgrinding/Web-Tech-Lab
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Web-Tech-Lab/lab-2
+    cd lab-2
     ```
 3. Open the HTML file in your browser:
     - `weather.html` for the weather application

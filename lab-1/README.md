@@ -41,11 +41,11 @@ lab-1/
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/nikgrinding/Web-Tech-Lab
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Web-Tech-Lab/lab-1
+    cd lab-1
     ```
 3. Open the HTML files in your browser:
     - `resume.html` for the resume page
