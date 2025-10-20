@@ -1,43 +1,60 @@
-# Instincts Student Coordinator Registration Form
+# Web Technology Lab - Lab 3
 
-This project is a clean, responsive, and user-friendly registration form designed for the "Instincts" student event. It is built using fundamental web technologies (HTML, CSS, and JavaScript) and features robust, real-time validation to ensure a smooth user experience and data integrity.
+## Overview
 
-### Live Demo
+This repository contains a responsive registration form application built with HTML, CSS, and JavaScript. The form provides real-time validation for student coordinator registration for the "Instincts" event.
 
-https://nikgrinding.github.io/Web-Tech-Lab/lab-3/form.html
+**Registration Form** - A dynamic form application that validates user input including name, email, phone number, age, and T-shirt size with instant feedback and error messages.
 
----
+## Project Structure
 
-### Features
+```
+lab-3/
+├── form.html            # Main registration form webpage
+├── styles/
+│   └── form.css         # Styles for registration form
+├── scripts/
+│   └── form.js          # JavaScript for form validation
+└── README.md            # Project documentation
+```
 
-* **Modern & Clean UI:** A simple and intuitive interface designed for ease of use.
-* **Fully Responsive:** The layout adapts seamlessly to all screen sizes, from mobile phones to desktops.
-* **Real-Time Validation:** Users receive instant feedback as they type, with clear error messages for invalid input.
-* **Secure & Client-Side:** All validation is handled on the client-side, providing immediate feedback without needing a server.
-* **Organized Codebase:** The project is structured with separate files for HTML, CSS, and JavaScript, following best practices.
+## Features
 
----
+-   Real-time form validation with instant feedback
+-   Clean and intuitive user interface
+-   Responsive design with modern styling
+-   Client-side validation for data integrity
+-   Dynamic error messages for invalid inputs
+-   Multiple field types: text, email, phone, number, and select
 
-### Validation Rules
+## Validation Rules
 
-The form enforces the following rules to ensure all submitted data is correct and complete:
+-   **Full Name:** Mandatory field, minimum 3 characters
+-   **Email Address:** Mandatory field, must be in valid email format
+-   **Phone Number:** Optional field, must be 10 digits if provided
+-   **Age:** Mandatory field, must be between 18 and 25
+-   **T-Shirt Size:** Mandatory field, must select from dropdown
 
-* **Full Name:**
-    * This is a **mandatory** field.
-    * Must contain at least **3 characters**.
+## Technologies Used
 
-* **Email Address:**
-    * This is a **mandatory** field.
-    * Must be in a valid email format (e.g., `user@domain.com`).
+-   HTML5
+-   CSS3
+-   JavaScript (ES6+)
 
-* **Phone Number:**
-    * This field is **optional**.
-    * If a value is entered, it must be a valid **10-digit number**.
+## Live Demo
 
-* **Age:**
-    * This is a **mandatory** field.
-    * The value must be between **18 and 25**.
+**Registration Form:** https://web-tech-lab-3-one.vercel.app/form.html
 
-* **T-Shirt Size:**
-    * This is a **mandatory** field.
-    * A size must be selected from the dropdown menu.
+## Local Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/nikgrinding/Web-Tech-Lab
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd lab-3
+    ```
+3. Open the HTML file in your browser:
+    - `form.html` for the registration form
+4. Fill out the form and see real-time validation in action
