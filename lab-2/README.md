@@ -1,62 +1,61 @@
-# Weather Dashboard
+# Web Technology Lab - Lab 2
 
-A simple weather dashboard that fetches and displays current weather data for a city using the OpenWeatherMap API.
+## Overview
+
+This repository contains a responsive weather application built with HTML, CSS, and JavaScript. The app displays real-time weather data for any city worldwide using the OpenWeatherMap API.
+
+**Weather App** - A dynamic weather application that provides current weather information including temperature, humidity, wind speed, and weather conditions with visual icons.
+
+## Project Structure
+
+```
+lab-2/
+├── weather.html         # Main weather app webpage
+├── styles/
+│   └── weather.css      # Styles for weather app
+├── scripts/
+│   └── weather.js       # JavaScript for API integration
+├── images/              # Weather icons and UI elements
+│   ├── search-button.png
+│   ├── clear.png
+│   ├── cloudy.png
+│   ├── rainy.png
+│   ├── drizzle.png
+│   ├── mist.png
+│   ├── humidity.png
+│   └── wind.png
+└── README.md            # Project documentation
+```
 
 ## Features
 
--   Search for current weather in any city.
--   Displays temperature, humidity, and wind speed.
--   Dynamic weather icons that change based on the weather conditions.
--   Clean, responsive user interface.
--   Error handling for invalid city names.
+- Real-time weather data from OpenWeatherMap API
+- Clean and intuitive user interface
+- Displays temperature, humidity, wind speed, and weather conditions
+- Dynamic weather icons based on current conditions
+- Responsive design with gradient styling
 
 ## Technologies Used
 
--   **HTML5** for the structure
--   **CSS3** for styling
--   **JavaScript** for functionality
--   **Fetch API** with **async/await** for making API requests
--   **OpenWeatherMap API** for weather data
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- OpenWeatherMap API
 
-## Local Testing
+## Live Demo
 
-### Step 1: Install Vercel CLI
-```bash
-npm install -g vercel
-```
+**Weather App:** https://web-tech-lab-2.vercel.app/weather.html
 
-### Step 2: Set up environment variables
-1. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-2. Open `.env` and add your OpenWeatherMap API key
+## Local Setup
 
-### Step 3: Run locally
-```bash
-cd lab-2
-vercel dev
-```
-
-This will start a local server (usually at `http://localhost:3000`) with your serverless functions working!
-
-## Deployment on Vercel
-
-### Step 1: Get OpenWeatherMap API Key
-1. Go to https://openweathermap.org/api
-2. Sign up and get your free API key
-
-### Step 2: Deploy to Vercel
-1. Push your code to GitHub
-2. Go to https://vercel.com and import your repository
-3. Select the `lab-2` folder as the root directory
-4. Add environment variable:
-   - Key: `WEATHER_API_KEY`
-   - Value: Your OpenWeatherMap API key
-5. Deploy!
-
-### How it works
-- The API key is stored securely in Vercel's environment variables
-- The frontend calls `/api/get-weather?city=<cityname>`
-- The serverless function (`api/get-weather.js`) fetches weather data with the hidden API key
-- Your API key is never exposed to the browser
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Web-Tech-Lab/lab-2
+    ```
+3. Open the HTML file in your browser:
+    - `weather.html` for the weather application
+4. Enter a city name and view real-time weather data
