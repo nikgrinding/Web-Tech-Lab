@@ -2,9 +2,11 @@ const searchBox = document.querySelector(".search input");
 const searchButton = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
+const API_KEY = '7b26132b362393e33c26061db955a171';
+
 async function checkWeather(city) {
-    // Call the Vercel serverless function instead of directly calling the API
-    const response = await fetch(`/api/get-weather?city=${city}`);
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+    const response = await fetch(apiUrl);
     let data = await response.json();
     if (data.cod === "404") {
         document.querySelector(".error").style.display= "block";
