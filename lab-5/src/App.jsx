@@ -26,7 +26,7 @@ export default function App() {
 				<h2>Temperature</h2>
 				<TemperatureDisplay
 					celsius={celcius}
-					fahreheit={fahrenheit}
+					fahrenheit={fahrenheit}
 					scale={scale}
 				/>
 				<TemperatureControls

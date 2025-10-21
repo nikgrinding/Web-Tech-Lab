@@ -36,6 +36,10 @@ lab-5/
 -   JavaScript (ES6+)
 -   CSS3
 
+## Live Demo
+
+**Lab 5 - Temperature Converter:** https://web-tech-lab-5.vercel.app/
+
 ## Local Setup
 
 1. Clone the repository:
