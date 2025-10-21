@@ -53,6 +53,10 @@ lab-4/
 -   JavaScript (ES6+)
 -   CSS3
 
+## Live Demo
+
+**Lab 4 - React Components:** https://web-tech-lab-4-i4utqckn6-nikgrindings-projects.vercel.app/
+
 ## Local Setup
 
 1. Clone the repository:
