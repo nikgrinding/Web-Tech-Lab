@@ -1,22 +1,24 @@
 /* Styles for the App component */
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-} .app {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px white solid;
-    padding: 30px;
-    border-radius: 30px;
-    background-color: darkblue;
-} button {
-    margin: 0px 20px;
-    width: 150px;
-    vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px white solid;
+	padding: 30px;
+	border-radius: 30px;
+	background-color: darkblue;
+}
+button {
+	margin: 0px 20px;
+	width: 150px;
+	vertical-align: middle;
 }
