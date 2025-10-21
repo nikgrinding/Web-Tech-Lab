@@ -5,18 +5,18 @@ export const animalData = [
 		name: 'Lion',
 		scientificName: 'Panthero leo',
 		weight: '140kg',
-		diet: 'meat.'
+		diet: 'meat.',
 	},
 	{
 		name: 'Gorilla',
 		scientificName: 'Gorilla beringel',
 		weight: '205kg',
-		diet: 'plants, insects.'
+		diet: 'plants, insects.',
 	},
 	{
 		name: 'Zebra',
 		scientificName: 'Equus quagga',
 		weight: '322kg',
-		diet: 'plants.'
-	}
+		diet: 'plants.',
+	},
 ];

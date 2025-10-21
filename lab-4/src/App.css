@@ -1,45 +1,59 @@
 /* css for the main app */
 
-.app-3, .app-2 {
-    text-align: center;
-    width: 99vw;
-} .animal-list {
-    display: flex;
-    justify-content: space-around;
-} .animal-card {
-    text-align: left;
-} .grocery-title {
-    background-color: lightblue;
-    padding: 10px 20px;
-    border: 5px solid black;
-    color: black;
-} .grocery-container {
-    display: flex;
-    gap: 10px;
-} .grocery-list {
-    flex: 1;
-    margin: 0px 10px;
-} .app-1 {
-    width: 300px;
-    margin: 20px auto;
-    border: 1px solid white;
-    padding: 15px;
-} .search-bar input[type="text"] {
-    width: 95%;
-    padding: 8px;
-    margin-bottom: 10px;
-} .table-header, .product-row {
-    display: flex;
-    justify-content: space-between;
+.app-3,
+.app-2 {
+	text-align: center;
+	width: 99vw;
+}
+.animal-list {
+	display: flex;
+	justify-content: space-around;
+}
+.animal-card {
+	text-align: left;
+}
+.grocery-title {
+	background-color: lightblue;
+	padding: 10px 20px;
+	border: 5px solid black;
+	color: black;
+}
+.grocery-container {
+	display: flex;
+	gap: 10px;
+}
+.grocery-list {
+	flex: 1;
+	margin: 0px 10px;
+}
+.app-1 {
+	width: 300px;
+	margin: 20px auto;
+	border: 1px solid white;
+	padding: 15px;
+}
+.search-bar input[type='text'] {
+	width: 95%;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+.table-header,
+.product-row {
+	display: flex;
+	justify-content: space-between;
 	padding: 5px 0;
-} .table-header {
+}
+.table-header {
 	font-size: 20px;
 	margin: 15px 0px 5px 0px;
-} .category-title {
+}
+.category-title {
 	text-align: center;
 	margin: 15px 0 5px 0;
-} .product-row span {
+}
+.product-row span {
 	width: 50%;
-} .red {
+}
+.red {
 	color: red;
 }
