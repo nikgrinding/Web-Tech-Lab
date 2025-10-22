@@ -41,6 +41,10 @@ lab-6/
 -   JavaScript (ES6+)
 -   CSS3
 
+## Live Demo
+
+**Lab 6 - Countdown Timer:** https://web-tech-lab-6.vercel.app/
+
 ## Local Setup
 
 1. Clone the repository:
