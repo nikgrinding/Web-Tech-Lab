@@ -55,7 +55,7 @@ lab-4/
 
 ## Live Demo
 
-**Lab 4 - React Components:** https://web-tech-lab-4-i4utqckn6-nikgrindings-projects.vercel.app/
+**Lab 4 - React Components:** https://web-tech-lab-4.vercel.app/
 
 ## Local Setup
 
