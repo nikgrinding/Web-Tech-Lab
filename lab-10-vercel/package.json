@@ -1,0 +1,12 @@
+{
+  "name": "lab-10-vercel",
+  "version": "1.0.0",
+  "description": "Node.js web application with file system operations deployed on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "keywords": ["nodejs", "file-system", "vercel", "serverless"],
+  "author": "",
+  "license": "MIT"
+}

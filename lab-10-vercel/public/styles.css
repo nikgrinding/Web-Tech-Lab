@@ -1,0 +1,40 @@
+html {
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+body {
+	margin: 0px auto;
+	width: 600px;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: darkblue;
+	border-radius: 50px;
+}
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+h1,
+p {
+	text-align: center;
+}
+p {
+	font-size: 30px;
+}
+strong {
+	color: lawngreen;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 500px;
+}
+span {
+	text-decoration: underline;
+}
