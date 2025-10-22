@@ -37,6 +37,10 @@ lab-10-vercel/
 -   CSS3 (external stylesheet)
 -   Vercel (deployment platform)
 
+## Live Demo
+
+**Lab 10 - File System Operations (Vercel):** https://web-tech-lab-10.vercel.app
+
 ## Deployment to Vercel
 
 ### Option 1: Deploy via Vercel CLI
