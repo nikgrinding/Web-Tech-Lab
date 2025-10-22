@@ -59,6 +59,10 @@ lab-7/
 -   JavaScript (ES6+)
 -   CSS3
 
+## Live Demo
+
+**Lab 7 - Portfolio with React Router:** https://web-tech-lab-7.vercel.app/
+
 ## Local Setup
 
 1. Clone the repository:
