@@ -1,0 +1,12 @@
+{
+  "name": "lab-9-vercel",
+  "version": "1.0.0",
+  "description": "Node.js blog application deployed on Vercel using serverless functions",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "keywords": ["nodejs", "blog", "vercel", "serverless"],
+  "author": "",
+  "license": "MIT"
+}
