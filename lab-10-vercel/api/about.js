@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = (req, res) => {
-    const filePath = path.join(__dirname, '../views/about.html');
+    const filePath = path.join(__dirname, '../public/about.html');
     fs.readFile(filePath, 'utf-8', (err, data) => {
         if (err) {
             console.error('Error reading about.html:', err.message);
