@@ -45,6 +45,10 @@ lab-8/
 -   **JSONPlaceholder**: Free fake REST API for posts data (`https://jsonplaceholder.typicode.com/posts`)
 -   **Lorem Picsum**: Random placeholder images (`https://picsum.photos/`)
 
+## Live Demo
+
+**Lab 8 - Blog Dashboard with React Bootstrap:** https://web-tech-lab-8.vercel.app/
+
 ## Local Setup
 
 1. Clone the repository:
