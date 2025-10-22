@@ -37,6 +37,12 @@ lab-9/
 -   HTML5
 -   CSS3 (inline styles)
 
+## Live Demo
+
+**Lab 9 - Node.js Blog Application:** https://web-tech-lab-9.vercel.app
+
+**Note:** This is deployed using the Vercel-compatible version (see `lab-9-vercel` folder) which uses serverless functions instead of the traditional HTTP server.
+
 ## Local Setup
 
 1. Clone the repository:

@@ -34,6 +34,10 @@ lab-9-vercel/
 -   CSS3 (inline styles)
 -   Vercel (deployment platform)
 
+## Live Demo
+
+**Lab 9 - Node.js Blog Application (Vercel):** https://web-tech-lab-9.vercel.app
+
 ## Deployment to Vercel
 
 ### Option 1: Deploy via Vercel CLI
