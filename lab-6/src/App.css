@@ -1,64 +1,78 @@
 /* Main stylesheet for the Countdown Timer application. */
 
 body {
-    display: flex;
-    justify-content: center;
-    color: black;
-} .App {
-    width: 350px;
-    padding: 30px;
-    background-color: wheat;
-    border-radius: 20px;
-    text-align: center;
-} .TimerDisplay h1 {
-    font-size: 72px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-} .TimeSetter {
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-} .TimeSetter h2 {
-    margin: 0px 0px 10px 0px;
-} .TimeSetter-controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-} .TimeSetter-label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-} .TimeSetter-label h3 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: normal;
-} .TimeSetter input {
-    width: 75px;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    font-size: 18px;
-} .ControlButtons {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-} .ControlButtons button {
-    border: none;
-    border-radius: 6px;
-    padding: 12px 24px;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-} .ControlButtons .start {
-    background-color: lightgreen;
-} .ControlButtons .stop {
-    background-color: lightcoral;
-} .ControlButtons .reset {
-    background-color: gray;
-} .TimeSetter input:disabled {
-    color: darkred;
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.App {
+	width: 350px;
+	padding: 30px;
+	background-color: wheat;
+	border-radius: 20px;
+	text-align: center;
+}
+.TimerDisplay h1 {
+	font-size: 72px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+.TimeSetter {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+.TimeSetter h2 {
+	margin: 0px 0px 10px 0px;
+}
+.TimeSetter-controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.TimeSetter-label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.TimeSetter-label h3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: normal;
+}
+.TimeSetter input {
+	width: 75px;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+	font-size: 18px;
+}
+.ControlButtons {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+.ControlButtons button {
+	border: none;
+	border-radius: 6px;
+	padding: 12px 24px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+}
+.ControlButtons .start {
+	background-color: lightgreen;
+}
+.ControlButtons .stop {
+	background-color: lightcoral;
+}
+.ControlButtons .reset {
+	background-color: gray;
+}
+.TimeSetter input:disabled {
+	color: darkred;
 }
