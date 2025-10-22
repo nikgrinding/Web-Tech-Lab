@@ -7,52 +7,52 @@ import TimerDisplay from '../components/TimerDisplay.jsx';
 import ControlButtons from '../components/ControlButtons.jsx';
 
 export default function Timer() {
-    const [initialTime, setInitialTime] = useState(30);
-    const [timeLeft, setTimeLeft] = useState(initialTime);
-    const [isRunning, setIsRunning] = useState(false);
-    
-    useEffect(() => {
-        let interval = null;
-        if (isRunning && timeLeft > 0) {
-            interval = setInterval(() => {
-                setTimeLeft((prevTime) => prevTime - 1);
-            }, 1000);
-        } else if (timeLeft === 0) {
-            setIsRunning(false);
-        }
-        return () => clearInterval(interval);
-    }, [isRunning, timeLeft]);
+	const [initialTime, setInitialTime] = useState(30);
+	const [timeLeft, setTimeLeft] = useState(initialTime);
+	const [isRunning, setIsRunning] = useState(false);
 
-    function handleStart() {
-        if (timeLeft > 0) {
-            setIsRunning(true);
-        }
-    }
+	useEffect(() => {
+		let interval = null;
+		if (isRunning && timeLeft > 0) {
+			interval = setInterval(() => {
+				setTimeLeft((prevTime) => prevTime - 1);
+			}, 1000);
+		} else if (timeLeft === 0) {
+			setIsRunning(false);
+		}
+		return () => clearInterval(interval);
+	}, [isRunning, timeLeft]);
 
-    function handleStop() {
-        setIsRunning(false);
-    }
+	function handleStart() {
+		if (timeLeft > 0) {
+			setIsRunning(true);
+		}
+	}
 
-    function handleReset() {
-        setIsRunning(false);
-        setTimeLeft(initialTime);
-    }
+	function handleStop() {
+		setIsRunning(false);
+	}
 
-    return (
-        <div className="timer-app">
-            <Heading level={1}>Timer</Heading>
-            <TimeSetter
-                setTimeLeft={setTimeLeft}
-                isRunning={isRunning}
-                setInitialTime={setInitialTime}
-            />
-            <TimerDisplay timeLeft={timeLeft} />
-            <ControlButtons
-                isRunning={isRunning}
-                handleStart={handleStart}
-                handleStop={handleStop}
-                handleReset={handleReset}
-            />
-        </div>
-    );
+	function handleReset() {
+		setIsRunning(false);
+		setTimeLeft(initialTime);
+	}
+
+	return (
+		<div className="timer-app">
+			<Heading level={1}>Timer</Heading>
+			<TimeSetter
+				setTimeLeft={setTimeLeft}
+				isRunning={isRunning}
+				setInitialTime={setInitialTime}
+			/>
+			<TimerDisplay timeLeft={timeLeft} />
+			<ControlButtons
+				isRunning={isRunning}
+				handleStart={handleStart}
+				handleStop={handleStop}
+				handleReset={handleReset}
+			/>
+		</div>
+	);
 }
